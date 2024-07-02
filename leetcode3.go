@@ -4,11 +4,6 @@ import (
 	"fmt"
 )
 
-func main() {
-	str := "eeydgwdykpv"
-	fmt.Println(lengthOfLongestSubstring(str))
-}
-
 func lengthOfLongestSubstring(s string) int {
 	m := make(map[string]int)
 
